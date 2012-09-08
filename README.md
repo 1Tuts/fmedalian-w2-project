@@ -2,7 +2,7 @@ F-Medalian
 =================
 ### Building Technologies
 
-- HTML
+- HTML5
 - CSS
 - CSS3
 
