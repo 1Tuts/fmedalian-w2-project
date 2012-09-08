@@ -1,4 +1,4 @@
-##Firooze-Medalian wesite : fmedalian.com
+##Firooze Medalian
 =================
 ###Contributing
 
@@ -18,10 +18,11 @@
 
 ### The Team 
 - [Mr.Ali Mihandoost](https://github.com/AliMD) Teacher & Technical Manager 
-- [Mohamad Ali Shiran](https://github.com/matafa) Project Manager / Developer 
 - [Sadegh Hoseini](https://github.com/sadeghhv) Designer / Developer
 - [Alireza Tafti](https://github.com/alirezatafti) Designer / Developer
 - [Mohamad Ali Saberpour](https://github.com/Saberpour) Designer / Data gather / Developer
+- [Mohamad Ali ShiranKhorasani](https://github.com/matafa) Project Manager / Developer 
+
 
 ### All rights reserved ###
 Please note that fmedalian.com is a curated site and that we reserve the right to refuse any listing for any reason.
