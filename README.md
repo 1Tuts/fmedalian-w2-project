@@ -3,6 +3,7 @@ F-Medalian
 ### Building Technologies
 
 - HTML
+- CSS
 - CSS3
 
 ### The Team 
