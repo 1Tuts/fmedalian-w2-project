@@ -7,7 +7,7 @@
 
 * Check our project's source with
 ```
-    git clone https://github.com/1schools-projects/drbijan.git
+    https://github.com/1schools-projects/F-Medalian
 ```
 
 
@@ -18,11 +18,11 @@
 
 
 ### The Team 
-- [Mr.Ali Mihandoost](https://github.com/AliMD) Teacher & Technical Manager 
-- [Sadegh Hoseini](https://github.com/sadeghhv) Designer / Developer
-- [Alireza Tafti](https://github.com/alirezatafti) Designer / Developer
-- [Mohamad Ali Saberpour](https://github.com/Saberpour) Designer / Data gather / Developer
-- [Mohamad Ali ShiranKhorasani](https://github.com/matafa) Project Manager / Developer 
+- Teacher & Technical Manager [Mr.Ali Mihandoost](https://github.com/AliMD) 
+-  Project Manager / Developer [Mohamad Ali ShiranKhorasani](https://github.com/matafa)
+- Designer / Developer  [Sadegh Hoseini](https://github.com/sadeghhv)
+-  Designer / Developer [Alireza Tafti](https://github.com/alirezatafti)
+-  Designer / Data gather / Developer [Mohamad Ali Saberpour](https://github.com/Saberpour)
 
 
 ### All rights reserved ###
