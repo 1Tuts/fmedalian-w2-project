@@ -10,3 +10,6 @@ div.slide li{
 div.jodakonande{
 	outline: 1px dashed pink;
 }
+section{
+	outline: 1px dotted darkmagenta;
+}
