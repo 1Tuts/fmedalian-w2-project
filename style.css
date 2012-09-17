@@ -7,3 +7,6 @@ div.slide li{
 	outline: 1px solid green;
 	width: 190px;
 }
+div.jodakonande{
+	outline: 1px dashed pink;
+}
