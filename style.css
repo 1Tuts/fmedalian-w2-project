@@ -1,0 +1,9 @@
+
+div.slideshow{
+	height: 450px;
+	outline: 2px solid red;
+}
+div.slide li{
+	outline: 1px solid green;
+	width: 190px;
+}
