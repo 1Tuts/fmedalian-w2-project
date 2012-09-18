@@ -1,19 +1,75 @@
-
+body.rang{
+  background:  url(images/bg.png);
+}
 div.slideshow{
-	height: 450px;
-	outline: 2px solid red;
 }
 div.slide li{
-	outline: 1px solid green;
 	width: 190px;
 }
 div.jodakonande{
-	outline: 1px dashed pink;
+	background-color: 
+		background: -moz-linear-gradient(top,  rgba(112,0,0,1) 0%, rgba(153,30,19,0.99) 48%, rgba(153,30,19,0.99) 52%, rgba(153,30,19,0.99) 56%, rgba(112,0,0,0.97) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(112,0,0,1)), color-stop(48%,rgba(153,30,19,0.99)), color-stop(52%,rgba(153,30,19,0.99)), color-stop(56%,rgba(153,30,19,0.99)), color-stop(100%,rgba(112,0,0,0.97))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(112,0,0,1) 0%,rgba(153,30,19,0.99) 48%,rgba(153,30,19,0.99) 52%,rgba(153,30,19,0.99) 56%,rgba(112,0,0,0.97) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(112,0,0,1) 0%,rgba(153,30,19,0.99) 48%,rgba(153,30,19,0.99) 52%,rgba(153,30,19,0.99) 56%,rgba(112,0,0,0.97) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(112,0,0,1) 0%,rgba(153,30,19,0.99) 48%,rgba(153,30,19,0.99) 52%,rgba(153,30,19,0.99) 56%,rgba(112,0,0,0.97) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(112,0,0,1) 0%,rgba(153,30,19,0.99) 48%,rgba(153,30,19,0.99) 52%,rgba(153,30,19,0.99) 56%,rgba(112,0,0,0.97) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#700000', endColorstr='#f7700000',GradientType=0 ); /* IE6-9 */
 }
-section{
-	outline: 1px dotted darkmagenta;
+section.box1{
+	width: 330px
 }
-.copyright{
-		outline: 1px dotted lightblue;
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+{
+	direction:rtl;
+}
+section h2{
+	font-size: 15px;
+	font-family: Tahoma;
+	color: #841e0d;
+	text-align: center;
+}
+section p{
+	color: #49210d;
+	text-align: center;
+	line-height: 30px;
+	font-size: 10px;
+}
+section a{
+	color: #029ebf;
+}
+div.crem
+{
+	background-color: #f9fceb;
+}
+div.copyright{
+	background-color: #edf0e0;
+}
+div.copyright p{
+	text-align: center;
+	font-size: 10px;
+	font-family: Arial;
+}
+div.atleft{
+	margin-top: 30px;
+	position: fixed;
+}
+li.atmenu{
+	margin-top: 5px;
+	text-align: center;
+	background-color: #5b5b5b;
+	-moz-box-shadow: 3px 3px 1px #888888; /* Firefox 3.6 and earlier */
+	box-shadow: 4px 4px 3px #888888;
+}
+li.atmenu a{
+	text-decoration: none;
+	font-size: 19px;
+	color: #b4bdc6;
+	padding: 3px 15px 3px;
 }
