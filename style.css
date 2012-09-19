@@ -54,22 +54,25 @@ div.copyright{
 div.copyright p{
 	text-align: center;
 	font-size: 10px;
-	font-family: Arial;
+	font-family: tahoma;
 }
 div.atleft{
-	margin-top: 30px;
-	position: fixed;
+	margin-top: ;
+	position: absolute;
+	margin-left: -10px
 }
 li.atmenu{
 	margin-top: 5px;
 	text-align: center;
-	background-color: #5b5b5b;
+	background-image: url(images/bg.png);
 	-moz-box-shadow: 3px 3px 1px #888888; /* Firefox 3.6 and earlier */
 	box-shadow: 4px 4px 3px #888888;
+	line-height: 27px;
 }
 li.atmenu a{
 	text-decoration: none;
-	font-size: 19px;
+	font-size: 18px;
 	color: #b4bdc6;
-	padding: 3px 15px 3px;
+	padding: 5px 25px 5px;
+
 }
