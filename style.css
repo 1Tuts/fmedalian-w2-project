@@ -63,9 +63,18 @@ li.atmenu{
 	margin-top: 5px;
 	text-align: center;
 	background-image: url(images/bg.png);
-	-moz-box-shadow: 3px 3px 1px #888888; /* Firefox 3.6 and earlier */
-	box-shadow: 4px 4px 3px #888888;
+	-moz-box-shadow: 4px 4px 4px #888888; /* Firefox 3.6 and earlier */
+	box-shadow: 4px 4px 4px #888888;
 	line-height: 27px;
+}
+li.atmenu:hover{
+	-moz-box-shadow: 3px 3px 1px lightblue; /* Firefox 3.6 and earlier */
+	box-shadow: 4px 4px 3px lightblue;
+}
+li.atmenu a:hover{
+	color: #e5faff;
+	text-shadow: 2px 3px 3px lightblue;
+
 }
 li.atmenu a{
 	text-decoration: none;
