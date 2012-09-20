@@ -57,19 +57,19 @@ div.copyright p{
 div.atleft{
 	margin-top: 20px ;
 	position: absolute;
-	margin-left: -10px
+	margin-left: -20px
 }
 li.atmenu{
 	margin-top: 5px;
 	text-align: center;
 	background-image: url(images/bg.png);
-	-moz-box-shadow: 4px 4px 4px #888888; /* Firefox 3.6 and earlier */
-	box-shadow: 4px 4px 4px #888888;
+	-moz-box-shadow: -1px 2px 5px #888888; /* Firefox 3.6 and earlier */
+	box-shadow: -1px 2px 5px #888888;
 	line-height: 27px;
 }
 li.atmenu:hover{
-	-moz-box-shadow: 3px 3px 1px lightblue; /* Firefox 3.6 and earlier */
-	box-shadow: 4px 4px 3px lightblue;
+	-moz-box-shadow: -1px 2px 5px lightblue; /* Firefox 3.6 and earlier */
+	box-shadow: -1px 2px 5px lightblue;
 }
 li.atmenu a:hover{
 	color: #e5faff;
