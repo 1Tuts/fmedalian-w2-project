@@ -26,7 +26,7 @@ i hope enjoyed it!
 ### The Team 
 - [Ali Mihandoost](http://github.com/AliMD) Teacher / Technical Advisor
 - [Mohamad Ali Shiran Khorasani](http://github.com/matafa) Project Manager / Developer
-- [Mohamad Ali Saberpoor](http://github.com/Saberpour) Developer / Data Gather / designer
+- [Mohamad Ali Saberpour](http://github.com/Saberpour) Developer / Data Gather / Designer
 - [Ali Aghasizadeh](http://github.com/AliGH) Technical Advisor
 - [Mohamad Rahimpoor](http://github.com/mrahimpoor) Graphic Advisor
 - [Mohamad Sedaghat](http://github.com/msedaghat) Business Advisor
