@@ -1,5 +1,7 @@
 ##Firooze Medalian
-                      is nice web !!!
+we want build one special web for firooze medalian ! 
+in this page you can see our works of it !!
+i hope enjoyed it!
 =================
 ###Contributing
 
