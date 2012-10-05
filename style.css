@@ -112,8 +112,7 @@ div.slideshow ul.btns{
 div.slideshow ul li{
 	float: left;
 	-webkit-transition : all 400ms;
-}
-div.slideshow ul li:hover{
+	margin-left: 5px;
 }
 div.slideshow ul li.btn1{
 	width: 32px;
@@ -186,4 +185,13 @@ div.slideshow ul.btns{
 	z-index: 2;
 	left: 300px;
 	cursor: pointer;
+}
+div.sepid:hover{
+	background-color: white;
+	opacity: 0.5;
+}
+.awards{
+	position: absolute;
+	top: 20%;
+	right: 0;
 }
