@@ -35,7 +35,7 @@ nav li:hover {
 nav a {
 	color       : black;
 	display     : block;
-	padding     : 5px 7px 6px;
+	padding     : 5px 7px 5px;
 	font-size   : 16px;
 	letter-spacing  : -1px;
 	text-transform  : capitalize;
@@ -46,12 +46,13 @@ div.menuline{
 	height: 3px;
 	border: 1px solid white;
 	opacity: 0.3;
+	margin-top: 9px;
 
 }
 header div.upmenu nav menu li:hover div.menuline{
 	background-color: #5F9FCB;
 	opacity: 0.7;
-
+	border: 0px;
 }
 div.navbanner{
 	width: 10000px;
