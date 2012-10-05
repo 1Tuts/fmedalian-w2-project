@@ -10,8 +10,8 @@ body{
 header div.logo{
 	background-image: url('images/logo.png');
 	background-repeat: no-repeat;
-	width: 100px;
-	min-height: 50px;
+	width: 160px;
+	min-height: 80px;
 }
 header div.upmenu{
 }
@@ -43,6 +43,9 @@ header nav a {
 	direction:rtl;
 
 }
+header nav a:hover{
+	color: white;
+}
 div.menuline{
 	width: inherit;
 	height: 3px;
@@ -57,90 +60,130 @@ header div.upmenu nav menu li:hover div.menuline{
 	opacity: 0.7;
 	border: 0px;
 }
-
-
 nav.upnavmenu li menu {
-			min-width : 100%;
-			position  : absolute;
-			right:       : 0;
-			top       : 90%;
-			display   : none;
-			z-index: +2;
-
-		}
-
-		nav.upnavmenu li:hover menu{
-			display   : block;
-
-		}
-
-		
-		nav.upnavmenu li li{
-			float       : none;
-			background  : #5F9FCB;
-			border      : none;
-			border-top  : 1px dashed white;
-			min-width: 100px;
-			min-height: 30px;
-			opacity: 0.8;
-		}
-
+	min-width : 100%;
+	position  : absolute;
+	right:       : 0;
+	top       : 90%;
+	display   : none;
+	z-index: +2;
+}
+nav.upnavmenu li:hover menu{
+	display   : block;
+}
+nav.upnavmenu li li{
+	float       : none;
+	background  : #5F9FCB;
+	border      : none;
+	border-top  : 1px dashed white;
+	min-width: 100px;
+	min-height: 30px;
+	opacity: 0.8;
+}
 div.navbanner{
 	width: 10000px;
 }
-
-
-
 .bazcontainer{
 }
-
 div.slideshow{
 	overflow : hidden;
 	margin   : 0 auto;
 	outline: 1px dashed darkmagenta;
-
 }
-
 div.slideshow .train{
 	width    : 20000px; /* 5*600 + x */
 	position : relative;
 	-webkit-transition : left 916ms;
 }
-
 div.slideshow .train > div{
 	float : right;
 }
-
 div.slideshow .train > div > img{
 	display : block;
 }
-
 div.slideshow ul.btns{
 	list-style-type : none;
-	margin-top:10px;
-	margin-left: 30px;
+	margin-top: 100px;
+	position: absolute;
+	z-index: 2;
+	left: 300px;
+	cursor: pointer;
 }
-
-div.slideshow li{
-	width:12px;
-	height:12px;
-	background-color:#333;
-	border-radius:25px;
+div.slideshow ul li{
 	float: left;
-	margin-right:5px;
-	-webkit-transition : all 800ms;
+	-webkit-transition : all 400ms;
 }
-
-div.slideshow li:hover{
-	background-color:#39D;
-	-webkit-transition : all 200ms;
+div.slideshow ul li:hover{
 }
+div.slideshow ul li.btn1{
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
+	background-position: 0px 0px;
+}
+div.slideshow ul li.btn1:hover{
+	background-position: 0px 33px;
+}
+div.slideshow ul li.btn2{
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
+	background-position: 33px 0px;
+}
+div.slideshow ul li.btn2:hover{
+	background-position: 32px 33px;
 
+}
+div.slideshow ul li.btn3{
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
+	background-position: 65px 0px;
+}
+div.slideshow ul li.btn3:hover{
+	background-position: 64px 33px;
+}
+div.slideshow ul li.btn4{
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
+	background-position: 96px 0px;
+}
+div.slideshow ul li.btn4:hover{
+	background-position: 96px 33px;
 
+}
+div.slideshow ul li.btn5{
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
+	background-position: 128px 0px;
+}
+div.slideshow ul li.btn5:hover{
+	background-position: 128px 33px;
+
+}
+div.content{
+	margin-bottom: 100px;
+}
 div.boxes{
-	margin-top: -100px;
+	margin-top: -70px;
 }
-div.boxes li{
+div.boxes ul li{
 	background-color: #2d3c43;
-	opacity: 0.9;
+	opacity: 0.9;	
+	position: relative;
+	-webkit-transition: all 200ms;
+}
+div.boxes li:hover {
+	top: 4px;
+	opacity: 1;
+	box-shadow: 2px 3px 10px #2d3c43;
+}
+div.slideshow ul.btns{
+	margin-top: 100px;
+	position: absolute;
+	z-index: 2;
+	left: 300px;
+	cursor: pointer;
 }
