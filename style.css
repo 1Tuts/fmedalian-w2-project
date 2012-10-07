@@ -127,6 +127,9 @@ div.slideshow li{
 	float: left;
 	margin-right:5px;
 }
+div.slideshow ul li:hover{
+	top:2px;
+}
 div.slideshow ul li.btn1{
 	width: 32px;
 	height: 33px;
