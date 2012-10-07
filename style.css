@@ -8,7 +8,7 @@ body{
 	-webkit-font-smoothing : antialiased;
 }
 header div.logo{
-	background-image: url('images/123.png');
+	background-image: url('images/logo.png');
 	background-repeat: no-repeat;
 	width: 160px;
 	min-height: 80px;
@@ -100,7 +100,7 @@ div.slideshow{
 div.slideshow .train{
 	width    : 4750px; /* 5*600 + x */
 	position : relative;
-	-webkit-transition : left 916ms;
+	-webkit-transition : left 910ms;
 }
 
 div.slideshow .train > div{
@@ -126,7 +126,6 @@ div.slideshow li{
 	height:33px;
 	float: left;
 	margin-right:5px;
-	-webkit-transition : all 800ms;
 }
 div.slideshow ul li.btn1{
 	width: 32px;
