@@ -187,14 +187,14 @@ div.boxes{
 }
 div.boxes ul li{
 	background-color: #2d3c43;
-	opacity: 0.95;	
-	position: relative;
-	-webkit-transition: all 100ms;
+	opacity: 0.9;
+	 -webkit-transition: all 140ms ease-in-out;
+
 }
 div.boxes li:hover {
-	top: 4px;
 	opacity: 1;
 	box-shadow: 2px 3px 10px #132d4b;
+	-webkit-transform:scale(1.03,1.03); /* Safari and Chrome */
 }
 div.slideshow ul.btns{
 	margin-top: 100px;
