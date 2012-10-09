@@ -85,23 +85,46 @@ div.navbanner{
 }
 .bazcontainer{
 }
+
+/*
+----------------------------------(slideshowe)--------------------------------------------------*/
+
+.bazcontainer{
+}
 div.slideshow{
+<<<<<<< HEAD
 	overflow: hidden;
 	margin  : 0 auto;
 	outline : 1px dashed darkmagenta;
+=======
+	width    : 950px;
+	overflow : hidden;
+	margin   : 0 auto;
+>>>>>>> origin/master
 }
+
 div.slideshow .train{
+<<<<<<< HEAD
 	width             : 20000px; /* 5*600 + x */
 	position          : relative;
 	-webkit-transition: left 916ms;
+=======
+	width    : 4750px; /* 5*600 + x */
+	position : relative;
+	-webkit-transition : left 916ms;
+>>>>>>> origin/master
 }
+
 div.slideshow .train > div{
-	float : right;
+	float : left;
 }
+
 div.slideshow .train > div > img{
 	display : block;
 }
+
 div.slideshow ul.btns{
+<<<<<<< HEAD
 	list-style-type: none;
 	margin-top     : 100px;
 	position       : absolute;
@@ -113,6 +136,23 @@ div.slideshow ul li{
 	float             : left;
 	-webkit-transition: all 400ms;
 	margin-left       : 5px;
+=======
+	list-style-type : none;
+	margin-left: 100px;
+	background-color: white;
+	opacity: .9;
+}
+div.btn{
+	position: absolute;
+	z-index: 2;
+
+}
+div.slideshow li{
+	height:33px;
+	float: left;
+	margin-right:5px;
+	-webkit-transition : all 800ms;
+>>>>>>> origin/master
 }
 div.slideshow ul li.btn1{
 	width              : 32px;
@@ -162,11 +202,15 @@ div.slideshow ul li.btn5:hover{
 	background-position: 128px 33px;
 
 }
+/*
+----------------------------------(slideshowe)--------------------------------------------------*/
+
+
 div.content{
 	margin-bottom: 100px;
 }
 div.boxes{
-	margin-top: -70px;
+	margin-top: -50px;
 }
 div.boxes ul li{
 	background-color  : #2d3c43;
@@ -181,11 +225,18 @@ div.boxes li:hover {
 }
 div.slideshow ul.btns{
 	margin-top: 100px;
+<<<<<<< HEAD
 	position  : absolute;
 	z-index   : 2;
 	left      : 300px;
 	cursor    : pointer;
+=======
+	z-index: +2;
+	left: 300px;
+	cursor: pointer;
+>>>>>>> origin/master
 }
+
 div.sepid:hover{
 	background-color: white;
 	opacity         : 0.5;
