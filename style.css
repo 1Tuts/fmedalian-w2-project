@@ -1,17 +1,17 @@
 .bg1{
-	background-image : url('images/bg1.jpg');
-	min-height       : 688px;
+	background-image: url('images/bg1.jpg');
+	min-height: 688px;
 	background-repeat:repeat-x;
 }
 body{
-	font-family           : 'Nazanin', Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
 }
 header div.logo{
-	background-image : url('images/123.png');
+	background-image: url('images/logo.png');
 	background-repeat: no-repeat;
-	width            : 160px;
-	min-height       : 80px;
+	width: 160px;
+	min-height: 80px;
 }
 header div.upmenu{
 }
@@ -26,59 +26,59 @@ header div.upmenu nav menu li{
 	transition         : top 200ms;
 }
 nav.top li:first-child {
-	margin-left: none;
+	margin-left : none;
 }
 nav li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
 }
 header nav a {
-	color          : black;
-	display        : block;
-	padding        : 5px 7px 5px;
-	font-size      : 17px;
-	letter-spacing : -1px;
-	text-transform : capitalize;
-	text-decoration: none;
-	white-space    : nowrap;
-	direction      :rtl;
+	color       : black;
+	display     : block;
+	padding     : 5px 7px 5px;
+	font-size   : 17px;
+	letter-spacing  : -1px;
+	text-transform  : capitalize;
+	text-decoration : none;
+	white-space     : nowrap;
+	direction:rtl;
 
 }
 header nav a:hover{
 	color: white;
 }
 div.menuline{
-	width             : inherit;
-	height            : 3px;
-	border            : 1px solid white;
-	opacity           : 0.3;
-	margin-top        : 8px;
+	width: inherit;
+	height: 3px;
+	border: 1px solid white;
+	opacity: 0.3;
+	margin-top: 8px;
 	-webkit-transition: all 300ms;
 
 }
 header div.upmenu nav menu li:hover div.menuline{
 	background-color: #5F9FCB;
-	opacity         : 0.7;
-	border          : 0px;
+	opacity: 0.7;
+	border: 0px;
 }
 nav.upnavmenu li menu {
-	min-width: 100%;
-	position : absolute;
-	right    :       : 0;
-	top      : 90%;
-	display  : none;
-	z-index  : +2;
+	min-width : 100%;
+	position  : absolute;
+	right:       : 0;
+	top       : 90%;
+	display   : none;
+	z-index: +2;
 }
 nav.upnavmenu li:hover menu{
 	display   : block;
 }
 nav.upnavmenu li li{
-	float     : none;
-	background: #5F9FCB;
-	border    : none;
-	border-top: 1px dashed white;
-	min-width : 100px;
+	float       : none;
+	background  : #5F9FCB;
+	border      : none;
+	border-top  : 1px dashed white;
+	min-width: 100px;
 	min-height: 30px;
-	opacity   : 0.8;
+	opacity: 0.8;
 }
 div.navbanner{
 	width: 10000px;
@@ -92,27 +92,15 @@ div.navbanner{
 .bazcontainer{
 }
 div.slideshow{
-<<<<<<< HEAD
-	overflow: hidden;
-	margin  : 0 auto;
-	outline : 1px dashed darkmagenta;
-=======
 	width    : 950px;
 	overflow : hidden;
 	margin   : 0 auto;
->>>>>>> origin/master
 }
 
 div.slideshow .train{
-<<<<<<< HEAD
-	width             : 20000px; /* 5*600 + x */
-	position          : relative;
-	-webkit-transition: left 916ms;
-=======
 	width    : 4750px; /* 5*600 + x */
 	position : relative;
-	-webkit-transition : left 916ms;
->>>>>>> origin/master
+	-webkit-transition : left 910ms;
 }
 
 div.slideshow .train > div{
@@ -124,19 +112,6 @@ div.slideshow .train > div > img{
 }
 
 div.slideshow ul.btns{
-<<<<<<< HEAD
-	list-style-type: none;
-	margin-top     : 100px;
-	position       : absolute;
-	z-index        : 2;
-	left           : 300px;
-	cursor         : pointer;
-}
-div.slideshow ul li{
-	float             : left;
-	-webkit-transition: all 400ms;
-	margin-left       : 5px;
-=======
 	list-style-type : none;
 	margin-left: 100px;
 	background-color: white;
@@ -151,22 +126,23 @@ div.slideshow li{
 	height:33px;
 	float: left;
 	margin-right:5px;
-	-webkit-transition : all 800ms;
->>>>>>> origin/master
+}
+div.slideshow ul li:hover{
+	top:2px;
 }
 div.slideshow ul li.btn1{
-	width              : 32px;
-	height             : 33px;
-	background-image   : url('images/icons.png');
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
 	background-position: 0px 0px;
 }
 div.slideshow ul li.btn1:hover{
 	background-position: 0px 33px;
 }
 div.slideshow ul li.btn2{
-	width              : 32px;
-	height             : 33px;
-	background-image   : url('images/icons.png');
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
 	background-position: 33px 0px;
 }
 div.slideshow ul li.btn2:hover{
@@ -174,18 +150,18 @@ div.slideshow ul li.btn2:hover{
 
 }
 div.slideshow ul li.btn3{
-	width              : 32px;
-	height             : 33px;
-	background-image   : url('images/icons.png');
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
 	background-position: 65px 0px;
 }
 div.slideshow ul li.btn3:hover{
 	background-position: 64px 33px;
 }
 div.slideshow ul li.btn4{
-	width              : 32px;
-	height             : 33px;
-	background-image   : url('images/icons.png');
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
 	background-position: 96px 0px;
 }
 div.slideshow ul li.btn4:hover{
@@ -193,9 +169,9 @@ div.slideshow ul li.btn4:hover{
 
 }
 div.slideshow ul li.btn5{
-	width              : 32px;
-	height             : 33px;
-	background-image   : url('images/icons.png');
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
 	background-position: 128px 0px;
 }
 div.slideshow ul li.btn5:hover{
@@ -213,36 +189,29 @@ div.boxes{
 	margin-top: -50px;
 }
 div.boxes ul li{
-	background-color  : #2d3c43;
-	opacity           : 0.95;	
-	position          : relative;
-	-webkit-transition: all 100ms;
+	background-color: #2d3c43;
+	opacity: 0.9;
+	 -webkit-transition: all 140ms ease-in-out;
+
 }
 div.boxes li:hover {
-	top       : 4px;
-	opacity   : 1;
+	opacity: 1;
 	box-shadow: 2px 3px 10px #132d4b;
+	-webkit-transform:scale(1.03,1.03); /* Safari and Chrome */
 }
 div.slideshow ul.btns{
 	margin-top: 100px;
-<<<<<<< HEAD
-	position  : absolute;
-	z-index   : 2;
-	left      : 300px;
-	cursor    : pointer;
-=======
 	z-index: +2;
 	left: 300px;
 	cursor: pointer;
->>>>>>> origin/master
 }
 
 div.sepid:hover{
 	background-color: white;
-	opacity         : 0.5;
+	opacity: 0.5;
 }
 .awards{
 	position: absolute;
-	top     : 20%;
-	right   : 0;
+	top: 20%;
+	right: 0;
 }
