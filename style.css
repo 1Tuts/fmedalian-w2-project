@@ -96,7 +96,14 @@ nav li li{
 	opacity: 0.8;
 }
 /*--------------slideshow-------------------*/
-
+.clear{
+	clear:both;
+	width:0 !important;
+	height:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	overflow:hidden;
+}
 div.slideshow{
 	width    : 950px;
 	overflow : hidden;
@@ -185,4 +192,27 @@ div.slideshow ul li.btn5{
 div.slideshow ul li.btn5:hover{
 	background-position: 128px 33px;
 
+}
+/*--------------box-------------------*/
+div.box{
+	z-index: +5;
+}
+div.boxes{
+	margin-top: -50px;
+}
+div.boxes ul li{
+	background-color: #2d3c43;
+	opacity: 0.9;
+	 -webkit-transition: all 140ms ease-in-out;
+
+}
+div.boxes li:hover {
+	opacity: 1;
+	box-shadow: 2px 3px 10px #132d4b;
+	-webkit-transform:scale(1.03,1.03); /* Safari and Chrome */
+}
+
+div.sepid:hover{
+	background-color: white;
+	opacity: 0.5;
 }
