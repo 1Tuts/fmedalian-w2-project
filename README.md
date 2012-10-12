@@ -29,7 +29,7 @@ i hope enjoyed it!
 - [Mohamad Ali Saberpour](http://github.com/Saberpour) Developer / Data Gather / Designer
 - [Ali Aghasizadeh](http://github.com/AliGH) Technical Advisor
 - [Mohamad Rahimpoor](http://github.com/mrahimpoor) Graphic Advisor
-- [Mohamad Sedaghat](http://github.com/msedaghat) Business Advisor
+- [Mohamad Sedaghat](http://github.com/sedaghat) Business Advisor
 
 ### All rights reserved ###
 Please note that fmedalian.com is a curated site and that we reserve the right to refuse any listing for any reason.
