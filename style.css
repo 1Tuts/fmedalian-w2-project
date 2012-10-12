@@ -3,15 +3,11 @@ div.con{
 }
 div{
 	outline: 1px solid darkmagenta;
-
 }
 div>div{
 	outline: 1px solid red;
 }
 div.boxes1{
-}
-div.slideshow{
-min-height: 430px;
 }
 /*--------------font-------------------*/
 @font-face {
@@ -33,6 +29,9 @@ header div.logo{
 	background-repeat: no-repeat;
 }
 /*--------------menu-------------------*/
+header div.upmenu nav menu{
+	margin-top: 10px;
+}
 header div.upmenu nav menu li{
 	float       :  right;
 	position    : relative;
@@ -53,13 +52,12 @@ header nav a {
 	color       : black;
 	display     : block;
 	padding     : 5px 7px 5px;
-	font-size   : 18px;
+	font-size   : 20px;
 	letter-spacing: -1px;
 	text-transform  : capitalize;
 	text-decoration : none;
 	white-space     : nowrap;
 	direction:rtl;
-
 }
 header nav a:hover{
 	color: white;
@@ -71,7 +69,6 @@ div.menuline{
 	opacity: 0.3;
 	margin-top: 8px;
 	-webkit-transition: all 300ms;
-
 }
 header div.upmenu nav menu li:hover div.menuline{
 	background-color: #5F9FCB;
@@ -82,7 +79,7 @@ nav li menu {
 	min-width : 100%;
 	position  : absolute;
 	right:       : 0;
-	top       : 90%;
+	top       : 60%;
 	display   : none;
 	z-index: +2;
 }
@@ -97,4 +94,95 @@ nav li li{
 	min-width: 100px;
 	min-height: 30px;
 	opacity: 0.8;
+}
+/*--------------slideshow-------------------*/
+
+div.slideshow{
+	width    : 950px;
+	overflow : hidden;
+	margin   : 0 auto;
+}
+div.slideshow .train{
+	width    : 8100px; /* 5*600 + x */
+	position : relative;
+	-webkit-transition : left 916ms;
+}
+div.slideshow .train > div{
+	float : right;
+}
+div.slideshow .train > div > img{
+	display : block;
+}
+/*--------------btn slideshow-------------------*/
+div.slideshow ul.btns{
+	list-style-type : none;
+	background-color: white;
+	opacity: .9;
+}
+div.btn{
+	position: absolute;
+	z-index: +2;
+	margin-left: 100px;
+}
+div.slideshow ul.btns{
+	margin-top: 100px;
+	z-index: +2;
+	left: 300px;
+	cursor: pointer;
+}
+div.slideshow li{
+	height:33px;
+	float: right;
+	margin-right:5px;
+}
+div.slideshow ul li:hover{
+	top:2px;
+}
+div.slideshow ul li.btn1{
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
+	background-position: 0px 0px;
+}
+div.slideshow ul li.btn1:hover{
+	background-position: 0px 33px;
+}
+div.slideshow ul li.btn2{
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
+	background-position: 33px 0px;
+}
+div.slideshow ul li.btn2:hover{
+	background-position: 32px 33px;
+
+}
+div.slideshow ul li.btn3{
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
+	background-position: 65px 0px;
+}
+div.slideshow ul li.btn3:hover{
+	background-position: 64px 33px;
+}
+div.slideshow ul li.btn4{
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
+	background-position: 96px 0px;
+}
+div.slideshow ul li.btn4:hover{
+	background-position: 96px 33px;
+
+}
+div.slideshow ul li.btn5{
+	width: 32px;
+	height: 33px;
+	background-image: url('images/icons.png');
+	background-position: 128px 0px;
+}
+div.slideshow ul li.btn5:hover{
+	background-position: 128px 33px;
+
 }
