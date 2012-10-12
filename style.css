@@ -13,6 +13,20 @@ div.boxes1{
 div.slideshow{
 min-height: 430px;
 }
+/*--------------font-------------------*/
+@font-face {
+	font-family: 'Nazanin';
+	src: url('fonts/BNazanin.eot');
+	src: url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BNazanin.woff') format('woff'),
+	url('fonts/BNazanin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+}
 /*--------------logo-------------------*/
 header div.logo{
 	background-image: url('images/logo.png');
@@ -39,8 +53,8 @@ header nav a {
 	color       : black;
 	display     : block;
 	padding     : 5px 7px 5px;
-	font-size   : 17px;
-	letter-spacing  : -1px;
+	font-size   : 18px;
+	letter-spacing: -1px;
 	text-transform  : capitalize;
 	text-decoration : none;
 	white-space     : nowrap;
