@@ -11,8 +11,9 @@
 body{
 	font-family           : 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background-image      : url('../images/bg1.jpg');
-	background-repeat     :repeat-x;
+	background-image: url('../images/bg2.png');
+	background-repeat: repeat-x;
+
 }
 /*--------------logo-------------------*/
 header div.logo{
@@ -97,4 +98,8 @@ menu.flt :hover{
 }
 menu.flt li{
 	float: left;
+}
+/*--------------lightbox-------------------*/
+div.gallery li a {
+	display: block;
 }
