@@ -11,7 +11,7 @@
 body{
 	font-family           : 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background-image: url('../images/bg2.png');
+	background-image      : url('../images/bg1.jpg');
 	background-repeat: repeat-x;
 
 }
@@ -101,9 +101,9 @@ menu.flt li{
 }
 /*--------------lightbox-------------------*/
 div.gallery li {
-	float: left;
+	float       : left;
 	margin-right: 15px;
-	margin-top: 10px;
+	margin-top  : 10px;
 }
 
 div.gallery li a {
