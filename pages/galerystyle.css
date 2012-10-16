@@ -11,9 +11,8 @@
 body{
 	font-family           : 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background-image      : url('../images/back-gallery.jpg');
-	background-repeat     :no-repeat;
-	
+	background-image      : url('../images/bg1.jpg');
+	background-repeat     :repeat-x;
 }
 /*--------------logo-------------------*/
 header div.logo{
