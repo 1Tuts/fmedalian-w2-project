@@ -86,15 +86,15 @@ nav li li{
 	min-height: 30px;
 	opacity   : 0.8;
 }
-/*--------------ax-------------------*/
-div.ax{
-	margin-top: 100px;
-	float: right;
+/*--------------menu-------------------*/
+menu.flt{
 	background-repeat: no-repeat;
-	
-}
-div.ax :hover{
-	background-image: url('../images/ax-gallery.png');
-	background-repeat: no-repeat;
-}
 
+}
+menu.flt :hover{
+	background-image : url('../images/ax-gallery.png');
+	background-repeat: no-repeat;
+}
+menu.flt li{
+	float: left;
+}
