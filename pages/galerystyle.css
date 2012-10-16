@@ -87,15 +87,14 @@ nav li li{
 	opacity   : 0.8;
 }
 /*--------------ax-------------------*/
-div.ax1{
-	background-image: url('../images/pic1.png');
+div.ax{
+	margin-top: 100px;
+	float: right;
 	background-repeat: no-repeat;
-	width: 197px;
-	height: 217px;
+	
 }
-div.ax2{
-	background-image: url('../images/pic2.png');
+div.ax :hover{
+	background-image: url('../images/ax-gallery.png');
 	background-repeat: no-repeat;
-	width: 197px;
-	height: 217px;
 }
+
