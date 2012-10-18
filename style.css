@@ -8,22 +8,22 @@ footer>div{
 /*--------------font-------------------*/
 @font-face {
 	font-family: 'Nazanin';
-	src: url('fonts/BNazanin.eot');
-	src: url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
+	src        : url('fonts/BNazanin.eot');
+	src        : url('fonts/BNazanin.eot?#iefix') format('embedded-opentype'),
 	url('fonts/BNazanin.woff') format('woff'),
 	url('fonts/BNazanin.ttf') format('truetype');
 	font-weight: normal;
-	font-style: normal;
+	font-style : normal;
 }
 body{
-	font-family: 'Nazanin', Arial, sans-serif;
-	-webkit-font-smoothing : antialiased;
-	background-image: url('images/bg1.jpg');
-	background-repeat:repeat-x;
+	font-family           : 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background-image      : url('images/bg1.jpg');
+	background-repeat     :repeat-x;
 }
 /*--------------logo-------------------*/
 header div.logo{
-	background-image: url('images/123.png');
+	background-image : url('images/123.png');
 	background-repeat: no-repeat;
 }
 /*--------------menu-------------------*/
@@ -31,13 +31,13 @@ header div.upmenu nav menu{
 	margin-top: 10px;
 }
 header div.upmenu nav menu li{
-	float       :  right;
-	position    : relative;
-	margin-right : 5px;
-	-webkit-transition : all 300ms;
-	-moz-transition    : top 200ms;
-	-ms-transition     : top 200ms;
-	-o-transition      : top 200ms;
+	float             :  right;
+	position          : relative;
+	margin-right      : 5px;
+	-webkit-transition: all 300ms;
+	-moz-transition   : top 200ms;
+	-ms-transition    : top 200ms;
+	-o-transition     : top 200ms;
 	transition         : top 200ms;
 }
 nav.top li:first-child {
@@ -47,70 +47,70 @@ nav li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
 }
 header nav a {
-	color       : black;
-	display     : block;
-	padding     : 5px 7px 5px;
-	font-size   : 20px;
-	letter-spacing: -1px;
-	text-transform  : capitalize;
-	text-decoration : none;
-	white-space     : nowrap;
-	direction:rtl;
+	color          : black;
+	display        : block;
+	padding        : 5px 7px 5px;
+	font-size      : 20px;
+	letter-spacing : -1px;
+	text-transform : capitalize;
+	text-decoration: none;
+	white-space    : nowrap;
+	direction      :rtl;
 }
 header nav a:hover{
 	color: white;
 }
 div.menuline{
-	width: inherit;
-	height: 3px;
-	border: 1px solid white;
-	opacity: 0.3;
-	margin-top: 8px;
+	width             : inherit;
+	height            : 3px;
+	border            : 1px solid white;
+	opacity           : 0.3;
+	margin-top        : 8px;
 	-webkit-transition: all 300ms;
 }
 header div.upmenu nav menu li:hover div.menuline{
 	background-color: #5F9FCB;
-	opacity: 0.7;
-	border: 0px;
+	opacity         : 0.7;
+	border          : 0px;
 }
 nav li menu {
-	min-width : 100%;
-	position  : absolute;
-	right:       : 0;
-	top       : 60%;
-	display   : none;
-	z-index: +2;
+	min-width: 100%;
+	position : absolute;
+	right    :       : 0;
+	top      : 60%;
+	display  : none;
+	z-index  : +2;
 }
 nav li:hover menu{
 	display   : block;
 }
 nav li li{
-	float       : none;
-	background  : #5F9FCB;
-	border      : none;
-	border-top  : 1px dashed white;
-	min-width: 100px;
+	float     : none;
+	background: #5F9FCB;
+	border    : none;
+	border-top: 1px dashed white;
+	min-width : 100px;
 	min-height: 30px;
-	opacity: 0.8;
+	opacity   : 0.8;
 }
 /*--------------slideshow-------------------*/
 .clear{
-	clear:both;
-	width:0 !important;
-	height:0 !important;
+	clear     :both;
+	width     :0 !important;
+	height    :0 !important;
 	min-height:0 !important;
-	min-width:0 !important;
-	overflow:hidden;
+	min-width :0 !important;
+	overflow  :hidden;
 }
 div.slideshow{
-	width    : 950px;
-	overflow : hidden;
-	margin   : 0 auto;
+	width   : 950px;
+	overflow: hidden;
+	margin  : 0 auto;
 }
 div.slideshow .train{
-	width    : 8100px; /* 5*600 + x */
-	position : relative;
-	-webkit-transition : left 916ms;
+	width             : 8100px; /* 5*600 + x */
+	position          : relative;
+	-webkit-transition: left 916ms;
 }
 div.slideshow .train > div{
 	float : right;
@@ -122,39 +122,39 @@ div.slideshow .train > div > img{
 div.slideshow ul.btns{
 	list-style-type : none;
 	background-color: white;
-	opacity: .9;
+	opacity         : .9;
 }
 div.btn{
-	position: absolute;
-	z-index: +2;
+	position   : absolute;
+	z-index    : +2;
 	margin-left: 100px;
 }
 div.slideshow ul.btns{
 	margin-top: 100px;
-	left: 300px;
-	cursor: pointer;
+	left      : 300px;
+	cursor    : pointer;
 }
 div.slideshow li{
-	height:33px;
-	float: left;
+	height      :33px;
+	float       : left;
 	margin-right:5px;
 }
 div.slideshow ul li:hover{
 	top:2px;
 }
 div.slideshow ul li.btn1{
-	width: 32px;
-	height: 33px;
-	background-image: url('images/icons.png');
+	width              : 32px;
+	height             : 33px;
+	background-image   : url('images/icons.png');
 	background-position: 0px 0px;
 }
 div.slideshow ul li.btn1:hover{
 	background-position: 0px 33px;
 }
 div.slideshow ul li.btn2{
-	width: 32px;
-	height: 33px;
-	background-image: url('images/icons.png');
+	width              : 32px;
+	height             : 33px;
+	background-image   : url('images/icons.png');
 	background-position: 33px 0px;
 }
 div.slideshow ul li.btn2:hover{
@@ -162,18 +162,18 @@ div.slideshow ul li.btn2:hover{
 
 }
 div.slideshow ul li.btn3{
-	width: 32px;
-	height: 33px;
-	background-image: url('images/icons.png');
+	width              : 32px;
+	height             : 33px;
+	background-image   : url('images/icons.png');
 	background-position: 65px 0px;
 }
 div.slideshow ul li.btn3:hover{
 	background-position: 64px 33px;
 }
 div.slideshow ul li.btn4{
-	width: 32px;
-	height: 33px;
-	background-image: url('images/icons.png');
+	width              : 32px;
+	height             : 33px;
+	background-image   : url('images/icons.png');
 	background-position: 96px 0px;
 }
 div.slideshow ul li.btn4:hover{
@@ -181,9 +181,9 @@ div.slideshow ul li.btn4:hover{
 
 }
 div.slideshow ul li.btn5{
-	width: 32px;
-	height: 33px;
-	background-image: url('images/icons.png');
+	width              : 32px;
+	height             : 33px;
+	background-image   : url('images/icons.png');
 	background-position: 128px 0px;
 }
 div.slideshow ul li.btn5:hover{
@@ -195,11 +195,11 @@ div.boxes{
 	margin-top: -90px;
 }
 div.boxes ul li{
-	opacity: 0.9;
-	min-height: 125px;
-	z-index: +2;
-	position: relative;
-	margin: 0 6px;
+	opacity           : 0.9;
+	min-height        : 125px;
+	z-index           : +2;
+	position          : relative;
+	margin            : 0 6px;
 	-webkit-transition: top 250ms;
 }
 div.boxes ul li:first-child{
@@ -207,49 +207,49 @@ div.boxes ul li:first-child{
 }
 div.boxes li:hover {
 	opacity: 1;
-	top: 3px;
+	top    : 3px;
 }
 /*--------------boxes-------------------*/
 div.boxes li.box1{
-	background-image:url('images/box.png');
+	background-image :url('images/box.png');
 	background-repeat: no-repeat;
-	width: 232px;
+	width            : 232px;
 }
 div.boxes li.box1:hover{
-	background-image:url('images/box.png');
-	background-repeat: no-repeat;
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
 	background-position: 0 -132px;
 	
 }div.boxes li.box2{
-	background-image:url('images/box.png');
-	background-repeat: no-repeat;
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
 	background-position: -250px 0;
-	width: 232px;
+	width              : 232px;
 }
 div.boxes li.box2:hover{
-	background-image:url('images/box.png');
-	background-repeat: no-repeat;
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
 	background-position: -250px -132px;
 }
 div.boxes li.box3{
-	background-image:url('images/box.png');
-	background-repeat: no-repeat;
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
 	background-position: -500px 0;
-	width: 232px;
+	width              : 232px;
 }
 div.boxes li.box3:hover{
-	background-image:url('images/box.png');
-	background-repeat: no-repeat;
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
 	background-position: -500px -132px;
 }
 div.boxes li.box4{
-	background-image:url('images/box.png');
-	background-repeat: no-repeat;
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
 	background-position: -746px 0;
-	width: 218px;
+	width              : 218px;
 }
 div.boxes li.box4:hover{
-	background-image:url('images/box.png');
-	background-repeat: no-repeat;
+	background-image   :url('images/box.png');
+	background-repeat  : no-repeat;
 	background-position: -746px -132px;
 }
