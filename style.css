@@ -301,5 +301,10 @@ div.boxes ul li a{
 	text-decoration : none;
 	white-space     : nowrap;
 	direction:rtl;
-	text-align: center;
+	text-align: right;
+	margin-right: 15px;
+}div.boxes ul li a h2{
+	color       : orange;
+	font-size   : 23px;
+
 }
