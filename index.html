@@ -8,71 +8,88 @@
 	<title>Medalian</title>
 </head>
 <body>
-	<div class="cover container">
+	<div class="container cover">
 		<header>
-			<div class="left w4 mh7 cover logo"></div>
-			<div class="w2 mh6 right last cover languege">
-				<div class="lan mt3">
-					<div class="farsi"><a href="#">fa</a></div>
-					<div class="english"><a href="#">en</a></div>
+			<div class="logo left w4 mh7 cover"></div>
+			<div class="languege w2 mh6 right last cover">
+				<div class="lan mt2">
+					<div class="left farsi"><a href="#">fa</a></div>
+					<div class="left english"><a href="#">en</a></div>
 				</div>
 			</div>
-			<div class="w12 mh6 mt1 right cover upmenu">
+			<div class="upmenu w12 mh6 mt1 right cover">
 				<nav class="upnavmenu">
 					<menu>
-						<li><a href="index.html">سر آغاز<div class="menuline"></div></a></li>
-						<li><a href="pages/gallery.html">گالری<div class="menuline"></div></a></li>
+						<li><a href="#">سر آغاز<div class="menuline"></div></a></li>
+						<li><a href="#">گالری<div class="menuline"></div></a>
+							<menu>
+								<li><a href="#">انگشتر فیروزه</a></li>
+								<li><a href="#">سنگ فیروزه</a></li>
+								<li><a href="#">سرویس نقره</a></li>
+								<li><a href="#">فروشگاه</a></li>
+							</menu>
+						</li>
 						<li><a href="#">خواص سنگ ها<div class="menuline"></div></a></li>
 						<li><a href="#">درباره ما<div class="menuline"></div></a></li>
-						<li><a href="pages/contact.html">تماس با ما<div class="menuline"></div></a></li>
+						<li><a href="#">تماس با ما<div class="menuline"></div></a></li>
 					</menu>
 				</nav>
 			</div>
 		</header>
-		<div class="mt7 content">
-			<div class="w24 slideshow">
-				<div class="train" id="train">
-	        	    <div><img src="images/bg3.jpg" alt="Slide 1" width="950" height="550" title="" /></div>
-	        	    <div><img src="images/bg2.jpg" alt="Slide 2" width="950" height="550" title="" /></div>
-	        	    <div><img src="images/bg3.jpg" alt="Slide 3" width="950" height="550" title="" /></div>
-	        	    <div><img src="images/bg2.jpg" alt="Slide 4" width="950" height="550" title="" /></div>
-	        	    <div><img src="images/bg3.jpg" alt="Slide 5" width="950" height="550" title="" /></div>
-       			</div>
-        		<div class="w8 mr14 btn">
-       			 	<ul class="btns">
-	            		<li class="btn1" onclick=" document.getElementById('train').style.left = '0px'; "></li>
-	            		<li class="btn2" onclick=" document.getElementById('train').style.left = '950px'; "></li>
-	            		<li class="btn3" onclick=" document.getElementById('train').style.left = '1900px'; "></li>
-	            		<li class="btn4" onclick=" document.getElementById('train').style.left = '2850px'; "></li>
-	            		<li class="btn5" onclick=" document.getElementById('train').style.left = '3800px'; "></li>
-        			</ul>
-        			<div class="claer"></div>
-    			</div>
+		<div class="content mt7">
+			<div class="step1" id="anihelper">
+				<section class="rel w24 slideshow">
+					<ul class="train">
+						<li class="w24 pic1" style="background-image:url('images/bg2.jpg');"></li>
+						<li class="w24 pic2" style="background-image:url('images/bg3.jpg');"></li>
+						<li class="w24 pic3" style="background-image:url('images/bg2.jpg');"></li>
+						<li class="w24 pic4" style="background-image:url('images/bg3.jpg');"></li>
+						<li class="w24 pic5" style="background-image:url('images/bg2.jpg');"></li>
+					</ul>
+					<menu>
+						<li class="btn1" onclick = " document.getElementById('anihelper').className = 'step1' "></li>
+						<li class="btn2" onclick = " document.getElementById('anihelper').className = 'step2' "></li>
+						<li class="btn3" onclick = " document.getElementById('anihelper').className = 'step3' "></li>
+						<li class="btn4" onclick = " document.getElementById('anihelper').className = 'step4' "></li>
+						<li class="btn5" onclick = " document.getElementById('anihelper').className = 'step5' "></li>
+					</menu>
+				</section>
 			</div>
-			<div class="cover boxes">
+			<div class="boxes cover">
 				<ul>
-					<li class="mh14 left box1"><a href="#"></a></li>
-					<li class="mh14 left box2"><a href="#"></a></li>
-					<li class="mh14 left box3"><a href="#"></a></li>
-					<li class="mh14 ml18 box4 last"><a href="#"></a></li>
+					<li class="left box1"><a href="#">
+						<h2>تیم کاری</h2>
+						<p>با توجه به حسن انتخابتان <br /> تیم کاری خود را معرفی<br />  میکنیم !</p>
+					</a></li>
+					<li class="left box2"><a href="#">
+						<h2>گالری تصاویر</h2>
+						<p>در این قسمت<br /> شما میتوانید تصاویر <br />سرویس ها و فیروزه ها  <br />را مشاهده کنید !</p>
+					</a></li>
+					<li class="left box3"><a href="#">
+						<h2>خواص فیروزه</h2>
+						<p>همانطور که می دانید <br />فیروزه دارای خواص<br /> منحصر به فردیست<br /> که در ادامه به بعضی ... ! </p>
+					</a></li>
+					<li class="ml18 box4 last"><a href="#">
+						<h2>تماس با ما</h2>
+						<p>همچنین شما می توانید<br /> از طریق این سایت <br />فیروزه مورد نظرتان را<br /> تهیه بفرمایید !</p>
+					</a></li>
 				</ul>
 			</div>
-			<div class="mt2 infotext">
+			<div class="infotext mt2">
 				<div class="rightpanelc right w12 mh22 cover last">
-					<div class="w5 mh20 left mt1 picslide">
-						<iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1+%D8%B1%D8%B6%D8%A7,+%D8%AE%D8%A7%D9%84%D8%AF+%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D8%A8%D9%88%D9%84%DB%8C,+%D9%85%D8%B4%D9%87%D8%AF,+%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86+%D8%B1%D8%B6%D9%88%DB%8C,+%D8%A7%DB%8C%D8%B1%D8%A7%D9%86&amp;aq=0&amp;oq=%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1+%D8%B1%D8%B6%D8%AA&amp;sll=36.286453,59.61731&amp;sspn=0.012592,0.022724&amp;ie=UTF8&amp;hq=%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1+%D8%B1%D8%B6%D8%A7,&amp;hnear=%D8%AE%D8%A7%D9%84%D8%AF+%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D8%A8%D9%88%D9%84%DB%8C%D8%8C+Mashhad,+Khorasan+Razavi,+Iran&amp;t=m&amp;cid=8421615838673098908&amp;ll=36.280468,59.615078&amp;spn=0.00173,0.002146&amp;z=17&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1+%D8%B1%D8%B6%D8%A7,+%D8%AE%D8%A7%D9%84%D8%AF+%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D8%A8%D9%88%D9%84%DB%8C,+%D9%85%D8%B4%D9%87%D8%AF,+%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86+%D8%B1%D8%B6%D9%88%DB%8C,+%D8%A7%DB%8C%D8%B1%D8%A7%D9%86&amp;aq=0&amp;oq=%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1+%D8%B1%D8%B6%D8%AA&amp;sll=36.286453,59.61731&amp;sspn=0.012592,0.022724&amp;ie=UTF8&amp;hq=%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1+%D8%B1%D8%B6%D8%A7,&amp;hnear=%D8%AE%D8%A7%D9%84%D8%AF+%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D8%A8%D9%88%D9%84%DB%8C%D8%8C+Mashhad,+Khorasan+Razavi,+Iran&amp;t=m&amp;cid=8421615838673098908&amp;ll=36.280468,59.615078&amp;spn=0.00173,0.002146&amp;z=17" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+					<div class="picslide w5 mh20 left mt1">
 					</div>
-					<div class="m7 mh22 ml5 last textpanel"> ye alame chiz!</div>
+					<div class="textpanel m7 mh22 ml5 last"> ye alame chiz!</div>
 				</div>
-				<div class="mr12 w12 mh22 leftpanelc">
+				<div class="leftpanelc mr12 w12 mh22">
 					<h2>subjective</h2>
-					<div class="w6 mh20 left info">	</div>
-					<div class="w6 mh20 ml6 last contact"></div>
+					<div class="info w6 mh20 left">	</div>
+					<div class="contact w6 mh20 ml6 last"></div>
 				</div>
 			</div>
 		</div>
 		<footer>
-			<div class="w24 mh4 mt2 copyright"></div>
+			<div class="copyright w24 mh4 mt2"></div>
 		</footer>
 	</div>
 </body>
