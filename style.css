@@ -31,6 +31,15 @@ div.lan div a{
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face{
+	font-family: 'davat';
+	src: url('fonts/BDavat.eot');
+	src: url('fonts/BDavat.eot?#iefix') format('embedded-opentype'),
+	url('fonts/BDavat.woff') format('woff'),
+	url('fonts/BDavat.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 body{
 	font-family: 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing : antialiased;
@@ -303,8 +312,13 @@ div.boxes ul li a{
 	direction:rtl;
 	text-align: right;
 	margin-right: 15px;
-}div.boxes ul li a h2{
+}
+div.boxes ul li a h2{
 	color       : orange;
 	font-size   : 23px;
+	font-family: 'davat', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
 
+}
+div.boxes ul li a p{
 }
