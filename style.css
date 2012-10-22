@@ -1,11 +1,13 @@
 /*--------------languege-------------------*/
 div.lan div{
-	opacity     : 0.9;
-	margin-right: 5px;
-	margin-top  : 5px;
+	background-color: gray;
+	opacity: .9;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 3px;
 }
 div.lan div a{
-	color          : #1ccbd6;
+	color          : white;
 	display        : block;
 	padding        : 7px 5px 3px;
 	font-size      : 14px;
@@ -17,8 +19,7 @@ div.lan div a{
 
 }
 div.lan div :hover{
-	-webkit-transform:scale(1.5);
-	color          : darkcyan;
+	color          : black;
 }
 /*--------------font-------------------*/
 @font-face {
@@ -40,18 +41,22 @@ div.lan div :hover{
 	font-style : normal;
 }
 body{
-	font-family           : 'Nazanin', Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	background-image      : url('images/1.png');
+	font-family: 'Nazanin', Arial, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	background-image: url('images/bg1.png');
+	background-repeat:repeat;
 }
 /*--------------logo-------------------*/
 header div.logo{
 	background-image : url('images/logo.png');
 	background-repeat: no-repeat;
+	width            : 158px;
+	height           : 80px;
 }
 /*--------------menu-------------------*/
 header div.upmenu nav menu{
 	margin-top: 10px;
+	z-index: 5;
 }
 header div.upmenu nav menu li{
 	float             : right;
@@ -62,6 +67,8 @@ header div.upmenu nav menu li{
 	-ms-transition    : top 200ms;
 	-o-transition     : top 200ms;
 	transition        : top 200ms;
+	z-index: 5;
+
 }
 nav.top li:first-child {
 	margin-left : none;
@@ -70,7 +77,7 @@ nav li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
 }
 header nav a {
-	color          : #1ccbd6;
+	color          : white;
 	display        : block;
 	padding        : 5px 7px 5px;
 	font-size      : 20px;
@@ -79,19 +86,16 @@ header nav a {
 	text-decoration: none;
 	white-space    : nowrap;
 	direction      : rtl;
+	-webkit-transition: all 150ms;
+	-moz-transition   : top 150ms;
+	-ms-transition    : top 150ms;
+	-o-transition     : top 150ms;
 }
 header nav a:hover{
-	color             : darkcyan;
-	-webkit-transform :scale(1.2);
+	color             : gray;
+	text-shadow: 1px 0px 1px darkcyan;
 }
-div.menuline{
-	width             : inherit;
-	height            : 3px;
-	border            : 1px solid white;
-	opacity           : 0.3;
-	margin-top        : 8px;
-	-webkit-transition: all 300ms;
-}
+
 header div.upmenu nav menu li:hover div.menuline{
 	background-color: #5F9FCB;
 	opacity         : 0.7;
@@ -180,47 +184,45 @@ section.slideshow menu{
 	z-index        : 3;
 	left           : 100px;
 	list-style-type: none;
-	opacity        : 0.9;
-	margin-top     : 100px;
-	cursor         : pointer;
+	margin-top     : 40px;
+	z-index: 5;
 }
 
 section.slideshow menu li{
 	float        : right;
 	width        : 32px;
-	border-radius: 6px;
-	opacity      : 0.7;
+	border-radius: 25px;
+	opacity      : 0.25;
 	cursor       : pointer;
-	height       : 32px;
+	height       : 33px;
 	margin-left  : 5px;
-
 }
 section.slideshow menu li:hover{
 	opacity: 1;
 }
 section.slideshow menu li.btn1{
-	background-image   : url('images/icons2.png');
+	background-image   : url('images/icons.png');
 	background-position: 0px 0px;
 }
 section.slideshow menu li:hover{
 	background-position: 0px 31px;
 }
 section.slideshow menu li.btn2{
-	background-image   : url('images/icons2.png');
+	background-image   : url('images/icons.png');
 	background-position: 32px 0px;
 }
 section.slideshow menu li.btn2:hover{
 	background-position: 32px 31px;
 }
 section.slideshow menu li.btn3{
-	background-image   : url('images/icons2.png');
+	background-image   : url('images/icons.png');
 	background-position: 64px 0px;
 }
 section.slideshow menu li.btn3:hover{
 	background-position: 64px 31px;
 }
 section.slideshow menu li.btn4{
-	background-image   : url('images/icons2.png');
+	background-image   : url('images/icons.png');
 	background-position: 95px 0px;
 }
 section.slideshow menu li.btn4:hover{
@@ -228,7 +230,7 @@ section.slideshow menu li.btn4:hover{
 
 }
 section.slideshow menu li.btn5{
-	background-image   : url('images/icons2.png');
+	background-image   : url('images/icons.png');
 	background-position: 128px 0px;
 }
 section.slideshow menu li.btn5:hover{
@@ -240,8 +242,8 @@ div.boxes{
 	margin-top: -90px;
 }
 div.boxes ul li{
-	opacity           : 0.9;
-	min-height        : 125px;
+	opacity           : 0.94;
+	height        : 130px;
 	z-index           : +2;
 	position          : relative;
 	margin            : 0 6px;
@@ -311,6 +313,10 @@ div.boxes ul li a{
 	text-align     : right;
 	margin-right   : 15px;
 }
+div.boxes ul li p{
+	color          : white;
+
+}
 div.boxes ul li a h2{
 	color                 : orange;
 	font-size             : 23px;
@@ -322,7 +328,7 @@ div.boxes ul li a p{
 }
 /*--------------textpanel in content -------------------*/
 div.content .textpanel h4{
-	color      : gray;
+	color      : white;
 	font-family: 'nazanin', Arial, sans-serif;
 	font-size  : 20px;
 	text-align : center;
@@ -344,13 +350,13 @@ div.content .textpanel p{
 	z-index            :-1;
 }
 .picslide h4{
-	color      : gray;
+	color      : white;
 	font-family: 'nazanin', Arial, sans-serif;
 	font-size  : 20px;
 	text-align : right;
 }
 p{
-	color      : white;
+	color      :#78c8dc;
 	text-align : right;
 	line-height: 25px;
 }
@@ -360,7 +366,7 @@ p{
 	text-align : right;
 }
 .leftpanelc h4{
-	color      : gray;
+	color      : white;
 	font-family: 'nazanin', Arial, sans-serif;
 	font-size  : 20px;
 	text-align : center;
@@ -374,7 +380,14 @@ footer div.copyright h3{
 	text-transform : capitalize;
 	text-decoration: none;
 	white-space    : nowrap;
-	direction      : rtl;
+	direction      :rtl;
 	text-align     : center;
 	font-family    : 'davat', Arial, sans-serif;
+}
+div.underhed p{
+	color: white;
+	opacity: .4;
+}
+* hr{
+	opacity: .4;
 }
