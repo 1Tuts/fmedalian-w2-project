@@ -1,11 +1,13 @@
 /*--------------languege-------------------*/
 div.lan div{
-	opacity     : 0.9;
-	margin-right: 5px;
-	margin-top  : 5px;
+	background-color: gray;
+	opacity         : .9;
+	border          : 1px solid white;
+	border-radius   : 25px;
+	margin-left     : 3px;
 }
 div.lan div a{
-	color          : #1ccbd6;
+	color          : white;
 	display        : block;
 	padding        : 7px 5px 3px;
 	font-size      : 14px;
@@ -17,8 +19,7 @@ div.lan div a{
 
 }
 div.lan div :hover{
-	-webkit-transform:scale(1.5);
-	color          : darkcyan;
+	color          : black;
 }
 /*--------------font-------------------*/
 @font-face {
@@ -48,10 +49,13 @@ body{
 header div.logo{
 	background-image : url('../images/logo.png');
 	background-repeat: no-repeat;
+	width            : 158px;
+	height           : 80px;
 }
 /*--------------menu-------------------*/
 header div.upmenu nav menu{
 	margin-top: 10px;
+	z-index: 5;
 }
 header div.upmenu nav menu li{
 	float             : right;
@@ -62,6 +66,8 @@ header div.upmenu nav menu li{
 	-ms-transition    : top 200ms;
 	-o-transition     : top 200ms;
 	transition        : top 200ms;
+	z-index: 5;
+
 }
 nav.top li:first-child {
 	margin-left : none;
@@ -70,7 +76,7 @@ nav li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
 }
 header nav a {
-	color          : #1ccbd6;
+	color          : white;
 	display        : block;
 	padding        : 5px 7px 5px;
 	font-size      : 20px;
@@ -79,20 +85,16 @@ header nav a {
 	text-decoration: none;
 	white-space    : nowrap;
 	direction      : rtl;
-
+	-webkit-transition: all 150ms;
+	-moz-transition   : top 150ms;
+	-ms-transition    : top 150ms;
+	-o-transition     : top 150ms;
 }
 header nav a:hover{
-	color             : darkcyan;
-	-webkit-transform :scale(1.2);
+	color             : gray;
+	text-shadow: 1px 0px 1px darkcyan;
 }
-div.menuline{
-	width             : inherit;
-	height            : 3px;
-	border            : 1px solid white;
-	opacity           : 0.3;
-	margin-top        : 8px;
-	-webkit-transition: all 300ms;
-}
+
 header div.upmenu nav menu li:hover div.menuline{
 	background-color: #5F9FCB;
 	opacity         : 0.7;
