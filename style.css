@@ -3,7 +3,8 @@ div.lan div{
 	background-color: gray;
 	opacity: .9;
 	border: 1px solid white;
-	border-radius: 20px;
+	border-radius: 25px;
+	margin-left: 3px;
 }
 div.lan div a{
 	color          : white;
@@ -42,13 +43,14 @@ div.lan div :hover{
 body{
 	font-family: 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing : antialiased;
-	background-image: url('images/bg1.jpg');
-	background-repeat:repeat-x;
+	background-image: url('images/bg1.png');
+	background-repeat:repeat;
 }
 /*--------------logo-------------------*/
 header div.logo{
 	background-image : url('images/logo.png');
 	background-repeat: no-repeat;
+	height: 55px;
 }
 /*--------------menu-------------------*/
 header div.upmenu nav menu{
@@ -74,7 +76,7 @@ nav li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
 }
 header nav a {
-	color          : black;
+	color          : white;
 	display        : block;
 	padding        : 5px 7px 5px;
 	font-size      : 20px;
@@ -188,12 +190,11 @@ section.slideshow menu{
 section.slideshow menu li{
 	float        : right;
 	width        : 32px;
-	border-radius: 6px;
-	opacity      : 0.95;
+	border-radius: 25px;
+	opacity      : 0.25;
 	cursor       : pointer;
 	height       : 33px;
 	margin-left  : 5px;
-
 }
 section.slideshow menu li:hover{
 	opacity: 1;
@@ -240,7 +241,7 @@ div.boxes{
 	margin-top: -90px;
 }
 div.boxes ul li{
-	opacity           : 0.9;
+	opacity           : 0.94;
 	height        : 130px;
 	z-index           : +2;
 	position          : relative;
@@ -326,7 +327,7 @@ div.boxes ul li a p{
 }
 /*--------------textpanel in content -------------------*/
 div.content .textpanel h4{
-	color      : black;
+	color      : white;
 	font-family: 'nazanin', Arial, sans-serif;
 	font-size  : 20px;
 	text-align : center;
@@ -348,13 +349,13 @@ div.content .textpanel p{
 	z-index            :-1;
 }
 .picslide h4{
-	color      : black;
+	color      : white;
 	font-family: 'nazanin', Arial, sans-serif;
 	font-size  : 20px;
 	text-align : right;
 }
 p{
-	color      :black;
+	color      :#78c8dc;
 	text-align : right;
 	line-height: 25px;
 }
@@ -364,7 +365,7 @@ p{
 	text-align : right;
 }
 .leftpanelc h4{
-	color      : black;
+	color      : white;
 	font-family: 'nazanin', Arial, sans-serif;
 	font-size  : 20px;
 	text-align : center;
@@ -381,4 +382,11 @@ footer div.copyright h3{
 	direction      :rtl;
 	text-align     : center;
 	font-family    : 'davat', Arial, sans-serif;
+}
+div.underhed p{
+	color: white;
+	opacity: .4;
+}
+* hr{
+	opacity: .4;
 }

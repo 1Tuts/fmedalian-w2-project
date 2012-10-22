@@ -3,9 +3,11 @@ div.lan div{
 	opacity     : 0.9;
 	margin-right: 5px;
 	margin-top  : 5px;
+		-webkit-transform:scale(1.5);
+
 }
 div.lan div a{
-	color          : white;
+	color          : #1ccbd6;
 	display        : block;
 	padding        : 7px 5px 3px;
 	font-size      : 14px;
@@ -17,7 +19,6 @@ div.lan div a{
 
 }
 div.lan div :hover{
-	-webkit-transform:scale(1.1);
 	color          : darkcyan;
 }
 /*--------------font-------------------*/
@@ -43,11 +44,10 @@ body{
 	font-family           : 'Nazanin', Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background-image      : url('../images/1.png');
-	background-size       : cover;
 }
 /*--------------logo-------------------*/
 header div.logo{
-	background-image :url('../images/logo.png');
+	background-image : url('../images/logo.png');
 	background-repeat: no-repeat;
 }
 /*--------------menu-------------------*/
@@ -57,7 +57,7 @@ header div.upmenu nav menu{
 header div.upmenu nav menu li{
 	float             : right;
 	position          : relative;
-	margin-right      : 3px;
+	margin-right      : 5px;
 	-webkit-transition: all 300ms;
 	-moz-transition   : top 200ms;
 	-ms-transition    : top 200ms;
@@ -71,7 +71,7 @@ nav li:hover {
 	text-shadow: 1px 0px 1px #78c8dc;
 }
 header nav a {
-	color          : white;
+	color          : #1ccbd6;
 	display        : block;
 	padding        : 5px 7px 5px;
 	font-size      : 20px;
@@ -80,14 +80,11 @@ header nav a {
 	text-decoration: none;
 	white-space    : nowrap;
 	direction      : rtl;
+		-webkit-transform :scale(1.2);
+
 }
 header nav a:hover{
 	color             : darkcyan;
-	-webkit-transform :scale(1.1);
-	-webkit-transition: all 150ms;
-	-moz-transition   : top 150ms;
-	-ms-transition    : top 150ms;
-	-o-transition     : top 150ms;
 }
 div.menuline{
 	width             : inherit;
@@ -127,43 +124,35 @@ menu.flt{
 	background-repeat: no-repeat;
 
 }
-menu.flt :hover{
-	background-image  : url('../images/ax-gallery.png');
+menu.flt li:hover{
+	background-image  : url('../images/borde-hover.png');
 	background-repeat : no-repeat;
+	-webkit-transform : scale(0.95); 
 
-}
+	}
 menu.flt li{
 	float: left;
+	-webkit-transition: all 800ms ease-out;
+	-moz-transition   : all 2s ease-out;
+	-ms-transition    : all 2s ease-out;
+	-o-transition     : all 2s ease-out;
+	transition        : all 2s ease-out;
 }
+
 /*--------------lightbox-------------------*/
 div.gallery li {
 	float       : left;
 	margin-right: 15px;
 	margin-top  : 10px;
+
 }
 div.gallery li :hover{
-	-webkit-transform : scale(0.95); 
-	-webkit-transition: all 2s;
-	-moz-transition   : all 2s;
-	-ms-transition    : all 2s;
-	-o-transition     : all 2s;
-	transition        : all 2s;
+
+
 }
 
 div.gallery li a {
 	display: block;
-}
-/*--------------noise-------------------*/
-.noise{
-	background-image   : url('data:images/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkQyMkQxODlEQUVCRTExRTBBNTU0ODc4MzU5RkU4RjcwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkQyMkQxODlFQUVCRTExRTBBNTU0ODc4MzU5RkU4RjcwIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDIyRDE4OUJBRUJFMTFFMEE1NTQ4NzgzNTlGRThGNzAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RDIyRDE4OUNBRUJFMTFFMEE1NTQ4NzgzNTlGRThGNzAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7kCcmTAAAAGUlEQVR42mJmYGBw+P///wNmEAHkMAAEGABJyggBddvkywAAAABJRU5ErkJggg==');
-	background-repeat  : repeat;
-	background-position: left top;
-	bottom             : 0;
-	top                : 0;
-	right              : 0;
-	left               : 0;
-	position           : fixed;
-	z-index            :-1;
 }
 /*--------------copyright -------------------*/
 
