@@ -155,18 +155,23 @@ div.gallery li {
 	float             : left;
 	margin-right      : 15px;
 	margin-top        : 10px;
-}
-div.gallery li > a :hover{
-	-webkit-transform: scale(0.95);
-}
-
-div.gallery li a {
-	display: block;
 	-webkit-transition: all 800ms;
 	-moz-transition   : all 800ms;
 	-ms-transition    : all 800ms;
 	-o-transition     : all 800ms;
 	transition        : all 800ms;
+}
+div.gallery li:hover{
+	-webkit-transform: scale(0.95);
+}
+
+div.gallery li a {
+	display: block;
+
+}
+div.gallery li a:hover {
+	-webkit-transform: scale(1);
+
 }
 
 div.gallery li h3,p {
